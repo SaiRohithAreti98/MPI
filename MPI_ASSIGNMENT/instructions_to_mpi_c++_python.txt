@@ -1,0 +1,35 @@
+
+Things to do in c++
+//connect to vpn
+open terminal from home
+sudo bash IIITH-VPN/iiit_vpn_setup.sh
+logging out close terminal or ctrl+c
+
+//connect to ada
+instructions at
+hpc.iiit.ac.in/wiki 
+(or)
+ssh cse431.003@ada.iiit.ac.in
+password_old:9qn3o46w,rohithiiit //1:15 am
+password:pratiksai@iiit
+Then do all the work of writing in vi editor
+
+If you want to execute:
+module load openmpi/4.0.0
+sint3
+mpicc file.cpp
+mpirun -n no_of_processes ./a.out
+
+
+
+
+//google colab
+! pip install mpi4py
+import sys
+sys.path.append('/content')
+!mpiexec --allow-run-as-root -n 4 python sample.py 
+
+
+These are some commands to run mpi on google colab
+
+
